@@ -1,0 +1,120 @@
+/* General styles */
+@font-face {
+    font-family: 'Outfit';
+    src: url('./fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('./fonts/young-serif/YoungSerif-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background-color: #f5e7d9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Recipe Card */
+.recipe-card {
+    background-color: white;
+    width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+/* Recipe Image */
+.recipe-image {
+    width: 100%;
+    height: auto;
+}
+
+/*Content */
+.content {
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*Preparation Time */
+.preparation-time {
+    background-color: #f8f1fa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.preparation-time h2 {
+    margin: 0 0 10px;
+}
+
+/* Ingredients */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+
+ul li {
+    font-size: 1em;
+    color: #654321;
+    margin-bottom: 10px;
+}
+
+
+/* Instructions */
+ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
+/*Nutrition Table */
+table {
+width:100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffe7d3;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #fff4eb;
+}
