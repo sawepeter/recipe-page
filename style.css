@@ -19,9 +19,10 @@
     --stone-150: hsl(30, 18%, 87%);
     --stone-600: hsl(30 10%, 34%);
     --stone-900: hsl(24, 5%, 18%);
-    --brown-800: hsl(14 45%, 36%);
+    --brown-800: hsl(14, 45%, 36%);
     --rose-800: hsl(332, 51%, 32%);
     --rose-50: hsl(330, 100%, 98%);
+    --text-50:hsl(50, 7%, 82%);
 }
 
 body {
@@ -67,14 +68,14 @@ h1 {
 /* Subtitle */
 .subtitle {
     font-size: 1.1em;
-    color: #666;
+    color: var(--stone-900);
     margin-bottom: 20px;
     color: var(--rose-800);
 }
 
 /*Preparation Time */
 .preparation-time {
-    background-color: #f8f1fa;
+    background-color: #fff7fc;
     padding: 16px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -124,10 +125,19 @@ table th, table td {
 }
 
 table th {
-    background-color: #ffe7d3;
-    font-weight: bold;
+        font-weight: lighter;
 }
 
 table td {
-    background-color: #fff4eb;
+    
+    color: var(--brown-800);
+    font-size: x-large;
+    font-family: YoungSerif;
+}
+
+.horizontal-line {
+   width: 100%;
+    height: 1px; /* Line thickness */
+    background-color: #333; /* Line color */
+    margin: 20px 0; /* Space around the line */
 }
