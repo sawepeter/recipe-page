@@ -124,6 +124,19 @@ table th, table td {
     text-align: left;
 }
 
+tr {
+    border-bottom: 1px solid var(--stone-150); /* Horizontal lines between rows */
+}
+
+tr:last-child {
+    border-bottom: none; /* Remove the bottom border of the last row */
+    padding-bottom: 0;
+}
+
+td {
+    border: none; /* no vertical lines between columns */
+}
+
 table th {
         font-weight: lighter;
 }
@@ -140,4 +153,9 @@ table td {
     height: 1px; /* Line thickness */
     background-color: #333; /* Line color */
     margin: 20px 0; /* Space around the line */
+}
+
+footer {
+    padding: 48px;
+    color: var(--stone-900);
 }
